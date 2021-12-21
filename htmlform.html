@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+  </head>
+  <body>
+    <h1>HTML Form</h1>
+    <form action="form.php">
+      <fieldset>
+        <legend>Name</legend>
+        <label for="fname">First Name:</label>
+        <br />
+        <input type="text" name="fname" id="fname" />
+        <br />
+        <br />
+        <label for="lname">Last Name:</label>
+        <br />
+        <input type="text" name="lname" id="lname" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Other Questions</legend>
+        <label for="drink">Choose a drink:</label><br />
+        <input type="radio" name="drink" id="drink" />
+        <label for="drink">Coffee</label>
+        <br />
+        <input type="radio" name="drink" id="drink" />
+        <label for="drink">Tea</label>
+        <br />
+        <input type="radio" name="drink" id="drink" />
+        <label for="drink">Hot chocolate</label>
+        <br />
+        <br />
+        <label for="ice">What ice cream do you like?</label><br />
+        <input type="checkbox" name="ice" id="ice" />
+        <label for="ice">Chocolate</label><br />
+        <input type="checkbox" name="ice" id="ice" />
+        <label for="ice">Chocolate Pudding</label><br />
+        <input type="checkbox" name="ice" id="ice" />
+        <label for="ice">Chocolate Peanut Butter</label><br />
+        <input type="checkbox" name="ice" id="ice" />
+        <label for="ice">Vanilla</label><br />
+        <input type="checkbox" name="ice" id="ice" />
+        <label for="ice">Strawberry</label>
+        <br />
+        <br />
+        <label for="school">Select a school:</label><br />
+        <select name="school" id="school">
+          <option value="Harvard">Harvard</option>
+          <option value="tu">TU</option>
+          <option value="pu">PU</option>
+          <option value="fwu">FWU</option>
+        </select>
+        <br />
+        <br />
+        <label for="comment">Please provide comments:</label><br />
+        <textarea name="comment" id="comment" cols="30" rows="7"></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>
