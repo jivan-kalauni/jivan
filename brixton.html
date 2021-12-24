@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRIXTON COLLEGE</title>
+    <link rel="stylesheet" href="./CSS/brixton.css" />
+  </head>
+  <body>
+    <div id="first">
+      <h1>BRIXTON COLLEGE</h1>
+    </div>
+    <div id="second">
+      <h2>Mahendranagar, Kanchanpur</h2>
+    </div>
+    <div id="three">
+      <h2>(Affiliated to Pokhara University)</h2>
+    </div>
+    <div id="four">
+      <h1><u>APPLICATION FORM</u></h1>
+    </div>
+    <div id="five">
+      <label for="ayear">Acadamic Year:</label>
+      <input type="text" name="ayear" id="ayear" maxlength="4" />
+      <form action="brixton.php">
+        <br />
+        <label for="regno">REGD. No.:</label>
+        <input type="text" name="regno" id="regno" maxlength="10" />
+        <br />
+        <br />
+        <label for="name">Name of the candidate:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your full name"
+        />
+        <br />
+        <br />
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" id="sex" />Male
+
+        <input type="radio" name="sex" id="sex" />Female
+        <input type="radio" name="sex" id="sex" />Other
+        <br />
+        <br />
+        <label for="dbirth">Date of Birth:</label>
+        <input type="date" name="dbirth" id="dbirth" />
+        <br />
+        <br />
+        <label for="bplace">Place of Birth:</label>
+        <input type="text" name="bplace" id="bplace" />
+        <br />
+        <br />
+        <label for="religion">Religion:</label>
+        <select name="religion" id="religion">
+          <option value="hindu">Hindu</option>
+          <option value="baudha">Bauddha</option>
+          <option value="isai">Isai</option>
+        </select>
+        <br />
+        <br />
+        <label for="nationality">Nationality:</label>
+        <input type="text" name="nationality" id="nationality" />
+        <br />
+        <br />
+        <fieldset>
+          <legend>Permanent Address</legend>
+          <label for="zone">Zone</label>
+          <select name="zone" id="zone">
+            <option value="mahakali">Mahakali</option>
+            <option value="seti">Seti</option>
+            <option value=""></option>
+          </select>
+          <br />
+          <br />
+          <select name="dis" id="dis">
+            <option value="baitadi">Baitadi</option>
+            <option value="kanchanpur">Kanchanpur</option>
+            <option value="kailali">Kailali</option>
+            <option value="doti">Doti</option>
+          </select>
+        </fieldset>
+
+        <input type="submit" name="submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>
