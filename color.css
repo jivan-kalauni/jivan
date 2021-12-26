@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+
+  /* margin: 0px; */
+}
+/* predefined color name */
+h1 {
+  color: red;
+  /* display: inline; */
+  background-color: royalblue;
+  height: 5%;
+  width: 70%;
+  font-size: 4em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* rgb color */
+h2 {
+  color: rgb(45, 80, 167);
+  background-color: rgb(170, 230, 255);
+  height: 10%;
+
+  width: 50%;
+  font-family: serif;
+  font-size: 5rem;
+}
+/* hex color value */
+p {
+  text-align: justify;
+  color: #7c003a;
+  background-color: #99ffaa;
+}
+/* alpha color */
+h3 {
+  color: rgba(255, 0, 0, 1);
+  background-color: rgba(155, 100, 200, 0.99);
+}
+/* hsl color */
+div {
+  color: hsl(120, 100%, 50%);
+  background-color: hsl(300, 50%, 60%);
+}
