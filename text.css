@@ -1,0 +1,22 @@
+#head {
+  text-align: center;
+  color: rgb(255, 23, 100);
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.lorem {
+  text-align: justify;
+  border: 6px dotted rgb(99, 200, 150);
+  padding: 2%;
+  margin: 2px;
+  line-height: 4;
+  color: blue;
+  text-indent: 5%;
+}
+.trns {
+  text-transform: uppercase;
+  color: royalblue;
+  letter-spacing: 4px;
+}
