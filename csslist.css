@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: square;
+  padding: 20px;
+  background-color: blue;
+  width: 50%;
+  list-style-position: outside;
+}
+ul li {
+  background-color: brown;
+  margin: 5px;
+}
+
+div {
+  margin-top: 15px;
+  background-color: crimson;
+}
+ol {
+  list-style-type: lower-roman;
+  padding: 30px;
+}
+ol li {
+  background-color: darkgreen;
+  margin: 5px;
+  color: aliceblue;
+  font-size: 4rem;
+}
