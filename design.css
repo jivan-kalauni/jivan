@@ -1,0 +1,17 @@
+.container {
+  background-image: url(green.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  /* background-image: linear-gradient(to right, green, red); */
+}
+.contain {
+  padding-top: 150px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.sent-button input {
+  background-color: red;
+
+  border-style: none;
+}
