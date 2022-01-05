@@ -1,0 +1,15 @@
+/* overflow visible */
+/* .container {
+  background-color: aqua;
+  height: 200px;
+  width: 400px;
+  display: block;
+  overflow: visible;
+} */
+/* overflow hidden */
+.container {
+  height: 200px;
+  width: 400px;
+  background-color: brown;
+  /* color: blanchedalmond; */
+}
