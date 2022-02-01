@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./snsc.jpg);
+}
+.left {
+  display: inline-block;
+  border: 2px solid red;
+  border-radius: 50px;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.mid {
+  display: block;
+  width: 400px;
+  margin: 20px auto;
+  border: 2px solid green;
+  background-color: black;
+}
+.right {
+  display: inline-block;
+  border: 2px solid yellow;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  margin: 25px;
+  padding: 5pxpx;
+  font-size: 25px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  color: rebeccapurple;
+  background-color: royalblue;
+  text-decoration: underline;
+}
+.left img {
+  display: block;
+  width: 50px;
+  margin: auto;
+  border: 2px solid black;
+}

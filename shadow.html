@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box shadow and text shadow</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .card {
+        padding: 30px 25px;
+        /* border: 3px solid black; */
+        margin: 30px 13px;
+        background-color: burlywood;
+        /* offset-x offset-y color */
+        /* offset-x offset-y blur-radius color */
+        /* offset-x offset-y blur-radius spread-radius color */
+        box-shadow: 20px 15px green;
+        /* box-shadow: -10px -12px green; */
+        /* box-shadow: 10px 12px 14px green; */
+        /* box-shadow: 10px 12px 14px 20px green; */
+        /* box-shadow: inset 12px 34px red; */
+      }
+      .card h2 {
+        text-shadow: 4px 3px red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" id="card1">
+        <h2>Card1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          officiis sapiente corrupti aspernatur consequuntur molestias, non cum
+          ut ab optio esse rem beatae rerum cumque saepe! Iure eligendi
+          reiciendis perspiciatis voluptatibus, nesciunt mollitia ut.
+        </p>
+      </div>
+      <div class="card" id="card2">
+        <h2>Card2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          officiis sapiente corrupti aspernatur consequuntur molestias, non cum
+          ut ab optio esse rem beatae rerum cumque saepe! Iure eligendi
+          reiciendis perspiciatis voluptatibus, nesciunt mollitia ut.
+        </p>
+      </div>
+      <div class="card" id="card3">
+        <h2>Card3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          officiis sapiente corrupti aspernatur consequuntur molestias, non cum
+          ut ab optio esse rem beatae rerum cumque saepe! Iure eligendi
+          reiciendis perspiciatis voluptatibus, nesciunt mollitia ut.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

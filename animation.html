@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyframes and Animations</title>
+    <style>
+      .container {
+        background-color: chartreuse;
+      }
+      .box {
+        background-color: blue;
+        width: 260px;
+        height: 260px;
+        position: relative;
+        animation-name: jivan1;
+        animation-duration: 1s;
+        animation-iteration-count: 2;
+        /* animation-fill-mode: forwards; */
+        animation-fill-mode: alternate;
+      }
+      @keyframes jivan1 {
+        from {
+          width: 200px;
+        }
+        to {
+          width: 450px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>This is a box</h2>
+      </div>
+    </div>
+  </body>
+</html>
