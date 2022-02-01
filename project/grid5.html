@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css grid+media queries</title>
+    <style>
+      .container {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas:
+          "navbar navbar navbar navbar"
+          "section section section aside"
+          "footer footer footer footer";
+      }
+      @media only screen and (max-width: 300px) {
+        body {
+          background-color: red;
+        }
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "aside aside aside aside"
+            "footer footer footer footer";
+        }
+        span {
+          text-align: center;
+          display: block;
+        }
+        aside {
+          display: none;
+        }
+      }
+      @media only screen and (min-width: 300px) and (max-width: 500px) {
+        body {
+          background-color: blue;
+        }
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "aside aside aside aside"
+            "footer footer footer footer";
+        }
+        aside {
+          display: none;
+        }
+        span {
+          text-align: center;
+          display: block;
+        }
+      }
+      @media only screen and (min-width: 500px) and (max-width: 800px) {
+        body {
+          background-color: yellow;
+        }
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "aside aside aside aside"
+            "footer footer footer footer";
+        }
+        span {
+          text-align: center;
+          display: block;
+        }
+      }
+      @media only screen and (min-width: 800px) {
+        body {
+          background-color: green;
+        }
+        /* span {
+          text-align: center;
+          display: block;
+        } */
+      }
+      .bdr {
+        border: 3px solid blue;
+        padding: 23px;
+        background-color: wheat;
+      }
+      nav {
+        grid-area: navbar;
+      }
+
+      section {
+        grid-area: section;
+      }
+
+      aside {
+        grid-area: aside;
+      }
+      footer {
+        grid-area: footer;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="bdr">
+        <span>Home</span>
+        <span>About</span>
+        <span>Services</span>
+        <span>Contacts</span>
+      </nav>
+      <section class="bdr">
+        <h2>Learn CSS in Nepali</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam omnis
+          sunt alias nesciunt ad ipsum unde earum, eaque, iusto, tenetur
+          molestiae illum? Aut voluptas beatae quos molestias placeat, ipsam
+          obcaecati. Aperiam voluptate possimus inventore quidem nisi reiciendis
+          ab et, a est cum minima consectetur obcaecati repellendus maiores
+          laborum ducimus sunt minus totam fugit iste mollitia porro aliquid
+          explicabo. Sed laboriosam amet quis quidem explicabo, quasi animi
+          inventore possimus totam nihil veniam, repudiandae odio, temporibus
+          cum laudantium voluptatibus aperiam nam quisquam. Sed quis ullam non
+          maiores officiis vel! Magnam nemo, officiis corporis, modi dicta,
+          suscipit qui soluta sunt iusto veritatis sequi culpa impedit quas
+          voluptate laboriosam maiores quis. Officia adipisci voluptatem,
+          expedita corporis culpa necessitatibus itaque beatae, eveniet tempora
+          modi voluptates. Excepturi totam voluptatum tempora illum. Similique
+          rem suscipit quibusdam delectus? Eum perspiciatis temporibus et! Ea
+          perferendis odio fugiat vitae nihil ab impedit id. Repudiandae
+          voluptatibus cum et, dolorem earum, molestias reiciendis aut tenetur
+          ab dignissimos dolores in natus neque culpa quaerat nostrum fuga
+          sapiente ad iste suscipit quos nisi fugit odio! Autem saepe culpa
+          voluptate quibusdam dolore fugit, molestias eveniet corporis
+          blanditiis tenetur rerum illum iure eaque accusantium ex aliquid quo
+          aperiam sapiente reprehenderit. Non dolore earum rem consectetur
+          natus?
+        </p>
+      </section>
+      <aside class="bdr">
+        <h1>More About Us</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+          dignissimos similique labore, voluptatum maiores omnis excepturi iure
+          quam vel, distinctio voluptatibus porro accusamus. Inventore ipsam
+          eligendi atque modi error. Repellat ipsam rerum aspernatur laborum
+          dignissimos est ea labore modi voluptate quisquam facilis illum,
+          perferendis vel dolore molestiae optio debitis soluta error fugiat
+          ullam. Dolorem, voluptas! Corporis officiis numquam mollitia magni
+          minus, dolor culpa accusamus, quisquam tenetur vel itaque quia amet
+          non, earum eligendi provident atque voluptatibus molestias fugit
+          asperiores ea aspernatur necessitatibus? Delectus porro maxime, ullam
+          inventore ipsum natus reprehenderit quos error magnam iure eum,
+          officiis quas eligendi esse dolore.
+        </p>
+      </aside>
+      <footer class="bdr">copyright &copy; code with jivan 2022</footer>
+    </div>
+  </body>
+</html>
