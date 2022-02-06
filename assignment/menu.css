@@ -1,0 +1,53 @@
+.container {
+  background-color: crimson;
+  padding: 20px 100px;
+}
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* .container::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+.fltlf {
+  float: left;
+}
+.logo-box {
+  width: 20%;
+  /* background-color: darkgoldenrod; */
+}
+.logo-text {
+  color: white;
+  margin: 0;
+}
+.main-menu {
+  width: 60%;
+  /* background-color: darkorchid; */
+}
+/* .nav-list::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+.nav-item {
+  float: left;
+  border: 1px solid white;
+  padding: 8px 25px;
+  margin-right: 20px;
+}
+a {
+  color: white;
+}
+.btn {
+  width: 20%;
+  /* background-color: darkslategrey; */
+}
+.btn a {
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 8px 20px;
+  display: inline-block;
+}
